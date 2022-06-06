@@ -1,0 +1,108 @@
+Flash Slider - 1.0
+
+
+Using:
+
+flashSimpleSlider(your slider, {
+   autoplay: true,
+   dots: true
+})
+
+Settings: 
+
+01) autoplay
+
+Values: true | false
+
+Default value: false
+
+When true is set, slider starts playing
+
+02) autoplaySpeed
+
+Values: "very-fast" | "fast" | "normal" | "slow" | "very-slow" | milliseconds 
+
+Default value: "normal"
+
+Defines autoplays speed
+
+03) speed 
+
+Values: "very-fast" | "fast" | "normal" | "slow" | "very-slow" | "number + s" (For example 2s)
+
+Default value: "fast"
+
+Defines speed of sliding
+
+04) arrows
+
+Values: true | false 
+
+Default value: true
+
+When true is set, it adds arrows to slider
+
+05) draggable
+
+Values: true | false 
+
+Default value: true
+
+When true is set, slides can be dragged
+
+06) indexes
+
+Values: true | false
+
+Default value: false
+
+When true is set, it shows index of current slide
+
+07) dots
+
+Values: true | false 
+
+Default value: false 
+
+When true is set, dots will be added to slider 
+
+08) buttons
+
+Values: true | false 
+
+Default value: false 
+
+When true is set, buttons will be added to slider 
+
+09) buttonsHTML 
+
+Value: an array for html of added buttons 
+
+For example: 
+
+buttonsHTML: ["Slide 01", "Slide 02", "Slide 03", "Slide 04", "Slide 05", "Slide 06", "Slide 07"]
+
+Default: html of the buttons will be numbers
+
+Note: You will need this property, when buttons is set true
+
+10) pauseOnHover
+
+Values: true | false 
+
+Default value: true
+
+If true is set, when mouse is over of slider list, playing will be paused
+
+11) disableArrows
+
+Values: true | false 
+
+Default value: false
+
+If true is set, arrows can be disabled 
+
+Flash Simple Slider - 1.0
+© Copyright 2022
+All rights reserved
+
